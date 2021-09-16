@@ -19,8 +19,9 @@ def get_filepath():
 
 
 def calculate_stats(key, output, size, max_size):
+    stats_list = [1, size, size]  # list with 3 elements: count, max_size, total_size
     if not key in output:
-        output[key] = [1, size, size]
+        output[key] = stats_list
     else:           
         if size > max_size:
             max_size = size
