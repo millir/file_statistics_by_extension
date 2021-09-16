@@ -1,5 +1,3 @@
-#!/mnt/c/Users/millir/Anaconda3/python.exe
-
 import sys
 import os
 
@@ -38,7 +36,7 @@ def walk_dir_and_calculate():
             key = os.path.splitext(filename)[1].lower()
             size = os.path.getsize(os.path.join(path, filename))
 
-            calculate_stats(key, output, size, max_size)  # add to total size
+            calculate_stats(key, output, size, max_size)
     return output
 
 

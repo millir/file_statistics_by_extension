@@ -2,13 +2,7 @@
 
 ## Usage
 
-NAME
-
-ext-stats
-
-SYNOPSIS
-
-./ext-stats [filepath]
+python ./ext-stats.py [filepath]
 
 DESCRIPTION
 
