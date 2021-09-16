@@ -9,6 +9,8 @@ DESCRIPTION
 Run this script to get file extension statistics for the directory passed in the filepath argument.
 If no argument, the current directory is used.
 
+The program scans recursively within the directory, using os.walk.
+
 Receive these stats per extension:
 1. count
 2. max size
